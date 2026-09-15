@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EcoTech BD — Smart Finds for Everyday Life</title>
+  <meta name="description" content="EcoTech BD practice e-commerce website for digital marketing and analytics tracking.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Add your GTM container snippet here later. -->
+  <!-- Add Meta Pixel base code here later. -->
+  <script>window.dataLayer = window.dataLayer || [];</script>
+</head>
+<body data-page="home">
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html"><span>EB</span> EcoTech BD</a>
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cart-link" href="cart.html">Cart <b id="cartCount">0</b></a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">SMART • SIMPLE • EVERYDAY</p>
+      <h1>Find things you’ll <em>love</em> to use.</h1>
+      <p class="hero-copy">A clean demo storefront built for your Meta Pixel, GTM, GA4 and conversion-tracking practice.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#shop" data-track="hero_shop_click">Explore products</a>
+        <a class="btn ghost" href="contact.html" data-track="hero_contact_click">Talk to us</a>
+      </div>
+      <div class="trust-row"><span>✓ Easy checkout</span><span>✓ Fast delivery</span><span>✓ Secure shopping</span></div>
+    </div>
+    <div class="hero-card">
+      <div class="orb"></div>
+      <div class="hero-product">SN</div>
+      <span class="floating-tag tag-one">New arrivals</span>
+      <span class="floating-tag tag-two">Best picks</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="shop">
+  <div class="container">
+    <div class="section-head">
+      <div><p class="eyebrow">SHOP</p><h2>Popular picks</h2></div>
+      <div class="search"><input id="searchInput" type="search" placeholder="Search products…"><span>⌕</span></div>
+    </div>
+    <div id="productGrid" class="product-grid"></div>
+  </div>
+</section>
+
+<section class="section muted">
+  <div class="container feature-grid">
+    <div class="feature"><strong>01</strong><h3>Curated</h3><p>Products selected for everyday usefulness and clean design.</p></div>
+    <div class="feature"><strong>02</strong><h3>Simple</h3><p>A frictionless shopping flow from product view to purchase.</p></div>
+    <div class="feature"><strong>03</strong><h3>Trackable</h3><p>Built-in dataLayer hooks make analytics practice easier.</p></div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div><a class="logo" href="index.html"><span>EB</span> EcoTech BD</a><p>Demo storefront for tracking practice.</p></div><div><a href="contact.html">Contact</a><a href="cart.html">Cart</a></div></div></footer>
+<script src="app.js"></script>
+</body>
+</html>
